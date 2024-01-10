@@ -4,21 +4,28 @@
     <title>Landing Page Exercise</title>
   </head>
   <body>
-    <h1>YOUR COURSE LANDING PAGE</h1>
-    <form action="">
+    <header>
+      <h1>YOUR COURSE LANDING PAGE</h1>
+    </header>
+    <form action="CourseLandingPage">
       <div>
         <label for="coursetitle">Coure Title</label>
-        <input type="text" />
+        <input type="text" id="coursetitle" required />
       </div>
       <div>
         <label for="coursedescription">Course Description</label>
       </div>
       <div>
-        <textarea rows="10" cols="20"></textarea>
+        <textarea
+          name="coursedescription"
+          id="coursedescription"
+          rows="10"
+          cols="20"
+        ></textarea>
       </div>
       <div>
         <label for="skills">Skill Level</label>
-        <select name="" id="">
+        <select name="skills" id="skills">
           <option value="BL">Beginners Level</option>
           <option value="IL">Intermediate Level</option>
           <option value="EL">Expert Level</option>
@@ -33,5 +40,29 @@
         <button>Submit</button>
       </div>
     </form>
+    <h2>TABLES</h2>
+    <table>
+      <tr>
+        <th>FX</th>
+        <th>NAIRA RATES</th>
+      </tr>
+      <tr>
+        <td>1 USD Dollar</td>
+        <td>#1,232.16</td>
+      </tr>
+      <tr>
+        <td>1 GBP Pound</td>
+        <td>#1,516.39</td>
+      </tr>
+      <tr>
+        <td>1 EUR Euro</td>
+        <td>#1,296.06</td>
+      </tr>
+      <tr>
+        <td>1 CAD Dollar</td>
+        <td>#900.75</td>
+      </tr>
+    </table>
   </body>
+  <footer>Copyright @ BensoftTech 2024</footer>
 </html>

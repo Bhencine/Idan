@@ -1,0 +1,23 @@
+p {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: green;
+    font-family: sans-serif;
+}
+h1{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+h2{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+li{
+    color: white;
+    background-color: black;
+}
