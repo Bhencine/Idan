@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="app.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page Exercise</title>
+  </head>
+  <body>
+    <header>
+      <h1>YOUR COURSE LANDING PAGE</h1>
+    </header>
+    <form action="CourseLandingPage">
+      <div>
+        <label for="coursetitle">Coure Title</label>
+        <input type="text" id="coursetitle" required />
+      </div>
+      <div>
+        <label for="coursedescription">Course Description</label>
+      </div>
+      <div>
+        <textarea
+          name="coursedescription"
+          id="coursedescription"
+          rows="10"
+          cols="20"
+        ></textarea>
+      </div>
+      <div>
+        <label for="skills">Skill Level</label>
+        <select name="skills" id="skills">
+          <option value="BL">Beginners Level</option>
+          <option value="IL">Intermediate Level</option>
+          <option value="EL">Expert Level</option>
+          <option value="AL">All Level</option>
+        </select>
+      </div>
+      <div>
+        <label for="publish">Ready to publish the course?</label>
+        <input type="checkbox" id="publish" name="publish" />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+    <h2>TABLES</h2>
+    <table>
+      <tr>
+        <th>FX</th>
+        <th>NAIRA RATES</th>
+      </tr>
+      <tr>
+        <td>1 USD Dollar</td>
+        <td>#1,232.16</td>
+      </tr>
+      <tr>
+        <td>1 GBP Pound</td>
+        <td>#1,516.39</td>
+      </tr>
+      <tr>
+        <td>1 EUR Euro</td>
+        <td>#1,296.06</td>
+      </tr>
+      <tr>
+        <td>1 CAD Dollar</td>
+        <td>#900.75</td>
+      </tr>
+    </table>
+  </body>
+  <footer>Copyright @ BensoftTech 2024</footer>
+</html>
