@@ -24,3 +24,6 @@ div{
 span{
     text-shadow: 0 -6.25px blue, 0 -12.5px cyan, 0 6.25px red, 0 12.5px yellow;
 }
+#Achievements{
+    list-style-type: circle;
+}
