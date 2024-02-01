@@ -1,0 +1,22 @@
+body{
+background-color: rgb(218, 237, 240);
+font-family: "space mono", monospace;
+}
+h1{
+    font-size: 75px;
+    line-height: 1;
+}
+#date{
+    text-decoration: blue underline 20%;
+}
+p{
+    font-size: 10px;
+}
+div{
+    width: 55%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+span{
+    text-shadow: 0 -6.25px blue, 0 -12.5px cyan, 0 6.25px red, 0 12.5px yellow;
+}
